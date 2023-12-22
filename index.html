@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social media Website</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- !NAV-BAR -->
+    <nav id="nav">
+      <div class="container">
+        <div class="logo"><h2>mokoSocial</h2></div>
+        <div class="search-bar">
+          <ion-icon name="search-outline"></ion-icon>
+          <input
+            type="text"
+            placeholder="Serch For images text And Many More Things"
+          />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-post">Create</label>
+          <div class="profile-photo">
+            <img src="./images/profile-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- !NAV-BAR -->
+
+
+    <!-- ! MAIN -->
+    <main id="main">
+      <!-- ! CONTAINER -->
+      <div class="container" id="CONTAINER">
+        <!--! LEFT -->
+        <div class="left">
+          <div class="profile">
+            <a href="#" class="profile">
+              <div class="profile-photo">
+                <img src="./images/profile-1.jpg" alt="" />
+              </div>
+            </a>
+            <div class="handle">
+              <h4>Diana Ayi</h4>
+              <p class="text-muted">@dyi</p>
+            </div>
+          </div>
+          <div class="sidebar">
+            <a class="menu-items "
+              ><span><ion-icon name="home-outline"></ion-icon>HOME</span></a
+            >
+            <a class="menu-items"
+              ><span><ion-icon name="globe-outline"></ion-icon>EXPLORE</span></a
+            >
+            <a class="menu-items" id="notifications"
+              ><span
+                ><ion-icon name="notifications-outline"></ion-icon><small id="notification-count" class="notification-count">9+</small>NOTIFICATIONS</span
+              >
+              <div class="notifications-popus" id="popups">
+                <div class="notification-container">
+                  <div class="popups">
+                    <div class="profile-photo">
+                      <img src="./images/profile-2.jpg" alt="" />
+                    </div>
+                    <div class="notification-body">
+                      <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit.
+                      <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                  </div>
+                  <div class="popups">
+                    <div class="profile-photo">
+                      <img src="./images/profile-5.jpg" alt="" />
+                    </div>
+                    <div class="notification-body">
+                      <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit.
+                      <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                  </div>
+                  <div class="popups">
+                    <div class="profile-photo">
+                      <img src="./images/profile-6.jpg" alt="" />
+                    </div>
+                    <div class="notification-body">
+                      <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit.
+                      <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                  </div>
+                  <div class="popups">
+                    <div class="profile-photo">
+                      <img src="./images/profile-3.jpg" alt="" />
+                    </div>
+                    <div class="notification-body">
+                      <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit.
+                      <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                  </div>
+                  <div class="popups">
+                    <div class="profile-photo">
+                      <img src="./images/profile-4.jpg" alt="" />
+                    </div>
+                    <div class="notification-body">
+                      <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit.
+                      <small class="text-muted">2 DAYS AGO</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="menu-items"
+              ><span
+                ><ion-icon name="bookmarks-outline"></ion-icon>BOOKMARKS</span
+              ></a
+            >
+            <a class="menu-items" id="THEME"><span><ion-icon name="color-palette-outline"></ion-icon>THEME</span>
+
+              <div class="theme_colour">
+                <span  id="RED">RED</span>
+                <span id="BLACK">BLACK</span>
+                <span id="GREY">GREY</span>
+                <span id="YELLOW">YELLOW</span>
+              </div>
+              
+              </a
+            >
+            <a class="menu-items"
+              ><span
+                ><ion-icon name="settings-outline"></ion-icon>SETTINGS</span
+              ></a
+            >
+            <a class="menu-items" id="messages-notifications"
+              ><span
+                ><ion-icon name="folder-open-outline"><small id="notification-count" class="notification-count">9+</small></ion-icon
+                >MESSAGES</span
+              >
+              </a
+            >
+          </div>
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!--! MIDDLE -->
+        <div class="middle">
+          <!-- STORIES -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-8.jpg" alt="" />
+              </div>
+              <p class="name">John Cena</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-9.jpg" alt="" />
+              </div>
+              <p class="name">Lila james</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-12.jpg" alt="" />
+              </div>
+              <p class="name">Brock Lenser</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-10.jpg" alt="" />
+              </div>
+              <p class="name">Andrew Tate</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-11.jpg" alt="" />
+              </div>
+              <p class="name">Pat Cummins</p>
+            </div>
+          </div>
+
+          <!-- INPUT FORM -->
+          <form>
+            <div class="profile-photo">
+              <img src="./images/profile-17.jpg" alt="" />
+            </div>
+            <input
+              type="text"
+              name=""
+              class="text-muted"
+              id="create-post"
+              placeholder="What's On Your Mind?"
+            />
+            <input type="submit" value="Post" class="btn btn-primary" />
+          </form>
+
+          <!-- FEEDS -->
+          <div class="feeds">
+            <!-- FEED -->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-12.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-10.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-3.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-18.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-4.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-19.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-5.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-18.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-4.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-12.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <h3>lana Tose</h3>
+                    <small>Lorem ipsum dolor sit amet.</small>
+                  </div>
+                </div>
+                <div class="icon">
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="" />
+              </div>
+
+              <div class="action-btns">
+                <div class="interaction-buttons">
+                  <i><ion-icon name="heart-outline"></ion-icon></i>
+                  <i><ion-icon name="share-social-outline"></ion-icon></i>
+                  <i><ion-icon name="pricetag-outline"></ion-icon></i>
+                </div>
+                <div class="bookmarks">
+                  <ion-icon name="bookmarks-outline"></ion-icon>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span><img src="./images/profile-1.jpg" alt="" /></span>
+                <span><img src="./images/profile-2.jpg" alt="" /></span>
+                <span><img src="./images/profile-3.jpg" alt="" /></span>
+                <p>Liked By <b>Emmet Lorem ipsum dolor sit amet.</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tenetur, cupiditate.
+                </p>
+              </div>
+              <div class="text-muted">View All Comment 227</div>
+            </div>
+          </div>
+        </div>
+
+        <!--! RIGHT -->
+        <div class="right">
+
+          <div class="message" id="message_box">
+            <div class="heading">
+              <h4>Messages</h4>
+             <i> <ion-icon name="document-outline"></ion-icon></i>
+            </div>
+
+            <div class="search-bar">
+              <ion-icon name="search-outline"></ion-icon>
+              <input type="search"  id="Message-search" placeholder="search-messages">
+            </div>
+
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6 class="">Genral</h6>
+              <h6 class="message-request">Requests(2)</h6>
+            </div>
+
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-4.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>John Cena</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-7.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>Brock Lenser</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-5.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>Andrew Tate</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-3.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>Pat Cummins</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-2.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>Arnold</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="inner-message">
+              <div class="profile-photo">
+                <img src="./images/profile-11.jpg" alt="">
+              </div>
+              <div class="message-body">
+                <h4>Michale Scofield</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="friend-requests">
+            <h4>Requests</h4>
+            <div class="request">
+
+              <div class="info">
+
+                <div class="profile-photo">
+                  <img src="./images/profile-10.jpg" alt="">
+                </div>
+                <div class="info-content">
+                  <h4>John Cena</h4>
+                  <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+                <div class="actions">
+                  <button class="btn btn-primary">Accept</button>
+                  <button class="btn ">Decline</button>
+                </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </main>
+    <!-- ! MAIN -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
